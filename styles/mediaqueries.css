@@ -1,0 +1,216 @@
+@media (max-width: 610px)  {
+	br{
+		display: none;
+	}
+	header{
+		flex-direction: column;
+		height: 180px;
+	}
+	header img{
+		margin-top: 30px;
+	}
+	header > .links{
+		flex-direction: column;
+		height: 80px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	header > .links a{
+		font-size: 15px;
+	}
+
+	#header_index{
+		height: 280px;
+	}
+
+	#header_index > .links{
+		height: 180px;
+	}
+
+	.banner{
+		height: 100%;
+	}
+	.about_us{
+		height: auto;
+	}
+	.about_us h2{
+		margin-top: 0;
+	}
+	.professional_skills_wrapper_banner{
+		height: 100%;
+	}
+	.professional_skills_wrapper{
+		height: 100%;
+		padding-bottom: 30px;
+	}
+	.professional_skills > .item img{
+		width: 100%;
+	}
+	.numbers_wrapper_banner{
+		height: 100%;
+	}
+	.numbers_wrapper{
+		height: 250px;
+		width: 215px;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 30px 0px 30px 0px;
+	}
+
+	.image_grid{
+		grid-template-columns: auto;
+	}
+
+	.video{
+		height: 100%;
+		width: 100%;
+	}
+
+	.video video{
+		height: 100%;
+		width: 100%;
+	}
+
+	.services_wrapper_banner{
+		height: 100%;
+	}
+	.services_wrapper{
+		height: 1300px;
+		grid-template-columns: auto;
+	}
+	.testimonials{
+		height: 100%;
+	}
+	.testimonials > .testimonial{
+		height: 100%;
+		margin: 0;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.testimonials > .testimonial > .author{
+		margin-top: 30px;
+	}
+	.testimonials img{
+		margin-bottom: 30px;
+	}
+	.logos{
+		height: 500px;
+		flex-direction: column;
+		padding: 30px 0px 30px 0px;
+	}
+	.need_project_banner{
+		height: 100%;
+	}	
+	.need_project{
+		height: 100%;
+		width: 100%;
+	}
+	.need_project h2{
+		margin: 20px 0px 20px 0px;
+	}
+	.need_project > .text{
+		margin: 0px 20px 20px 20px;
+	}
+	.need_project > .text_forms_button{
+		height: 100%;
+		width: 100%;
+		padding: 0px 20px 20px 20px;
+
+	}
+	.footer{
+		height: 100%;
+	}
+	.footer br{
+		display: inline;
+	}
+	.footer_inner{
+		flex-direction: column;
+		align-items: center;
+		height: 700px;
+	}
+	.footer_inner > .copyrights{
+		text-align: center;
+	}
+	.footer_inner > .links{
+		height: 400px;
+		width: 60px;
+		grid-template-columns: auto;
+	}
+	.footer_inner > .links > .column{
+		width: 60px;
+		height: 100px;
+		justify-content: space-around;
+	}
+	.footer_inner > .links > .column a{
+		font-size: 15px;
+	}
+	#blank{
+		height: 0;
+	}
+	.about_project{
+		flex-direction: column;
+		height: 100%;
+	}
+	.about_project br{
+
+	}
+	.about_project > .information{
+		width: 100%;
+	}
+	.about_project > .information > .text{
+		padding: 10px;
+		padding-bottom: 30px;
+		height: 100%;
+	}
+	.about_project > .information > .text h2{
+		margin: 30px 0px 30px 0px;
+	}
+	.about_project > .information > .text > .inf br{
+		display: inline;
+	}
+	.about_project > .image{
+		width: 100%;
+	}
+	.buttons{
+		width: 95%;
+		height: 70px;
+	}
+	.buttons a{
+		font-size: 9px;
+	}
+	.information{
+		flex-direction: column;
+		height: 100%;
+	}
+	.information > .image{
+		width: 100%;
+	}
+	.information > .info{
+		width: 100%;
+		padding: 10px;
+	}
+	.information > .info > .info_inner img{
+		padding: 20px 0px 20px 0px;
+	}
+	.contact{
+		height: 100%;
+	}
+	.contact_inner{
+		flex-direction: column;
+
+	}
+
+	.contact_info{
+		padding: 20px;
+		padding-bottom: 40px;
+	}
+
+	.contact_info br{
+		display: inline;
+	}
+	.contact_inner > .text_forms_button{
+		height: 100%;
+		width: 100%;
+		padding: 0px 20px 20px 20px;
+	}
+}
