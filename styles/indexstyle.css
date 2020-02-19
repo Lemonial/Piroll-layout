@@ -233,6 +233,10 @@ a{
 	display: flex;
 }
 
+.video video{
+	width: 100%;
+}
+
 .after_video_space{
 	height: 100px;
 }
