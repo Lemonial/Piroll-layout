@@ -1,0 +1,387 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+	background-image: url(../images/backgrounds/macbook_apple_noutbuk_fotoapparat_chashka_99153_1366x768.jpg);
+	height: 670px;
+	background-size: cover;
+	background-position: center;
+}
+
+header{
+	width: 85%;
+	height: 100px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+
+		.links{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 616px;
+
+			a{
+			text-decoration: none;
+			color: #191919;
+			transition: 0.5s;
+			font-size: 12px;
+
+				&:hover{
+				color: #10c9c3;
+				}
+			}
+		}
+}
+
+.image-content{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 85%;
+	height: 570px;
+	margin: 0 auto;
+}
+
+.textandbutton{ 
+	h1{
+	color: #1d1d1d;
+	font-size: 38px;
+	}
+
+	.text{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #787878;
+	font-size: 18px;
+	}
+}
+
+.button{
+	display: flex;
+	width: 180px;
+	height: 54px;
+	background-color: #39b4af;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+
+		a:focus{
+			outline: none;
+		}
+}
+
+a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.about_us_wrapper{
+	width: 85%;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.about_us{
+	width: 620px;
+	height: 219px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+
+	h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	}
+
+	.text{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	color: #787878;
+	text-align: center;
+	margin-bottom: 30px;
+	}
+}
+
+.professional_skills_wrapper_banner{
+	height: 570px;
+	background-image: url(../images/backgrounds/white-blank-notebook-733857.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.professional_skills_wrapper{
+	width: 85%;
+	height: 570px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.professional_skills{ 
+	h2{
+	font-size: 30px;
+	color: #171717;
+	}
+
+	.item{
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	height: 32px;
+	justify-content: space-between;
+	}
+}
+
+.numbers_wrapper_banner{
+	background-color: #10c9c3;
+	height: 240px;
+}
+
+.numbers_wrapper{
+	height: 240px;
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.item{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 20px;
+	color: #ffffff;
+
+		i{
+		font-size: 48px;
+		grid-row-start: 1;
+	  	grid-row-end: 3;
+		}
+
+		.number{
+		font-size: 18px;
+		}
+
+		.text{
+		font-size: 12px;
+		}
+	}
+}
+
+.image_grid{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+
+	.image{
+	width: 100%;
+  	padding-bottom: 100%;
+  	position: relative;
+
+	  	img{
+	    width: 100%;
+	    height: 100%;
+	    object-fit: cover;
+	    position: absolute;
+		}
+	}
+}
+
+.load_more_work{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: #f5f5f5;
+	color: #8e8e8e;
+	font-size: 12px;
+}
+
+.video_title{
+	height: 258px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+		h2{
+		font-size: 30px;
+		color: #191919;
+		}
+		.text{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		color: #787878;
+		}
+}
+
+.video{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+
+		video{
+		width: 100%;
+		}
+}
+
+.after_video_space{
+	height: 100px;
+}
+
+.services_wrapper_banner{
+	height: 535px;
+	background-color: #f5f5f5;
+}
+
+.services_wrapper{
+	margin: 0 auto;
+	width: 85%;
+	height: 535px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	align-items: center;
+
+		.service{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+			i{
+			font-size: 48px;
+			}
+
+			h3{
+			font-size: 12px;
+			color: #191919;
+			}
+
+			.text{
+			font-family: 'Nunito Sans', sans-serif;
+			font-size: 16px;
+			color: #787878;
+			text-align: center;
+			}
+		}
+}
+
+.testimonials{
+	height: 500px;
+	background-color: #39b4af;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.testimonial{
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 175px 0px 105px 0px;
+
+		.text{
+		color: #ffffff;
+		font-size: 24px;
+		text-align: center;
+		}
+
+		.author{
+		color: #ffffff;
+		font-size: 12px;
+		text-align: center;
+		}
+}
+
+.logos{
+	height: 200px;
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.need_project_banner{
+	height: 750px;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+}
+
+.need_project{
+	width: 670px;
+	height: 550px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+		h2{
+		font-size: 30px;
+		color: #1d1d1d;
+		margin: 0;
+		}
+
+		.text{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		color: #787878;
+		}
+
+		.text_forms_button{
+		width: 670px;
+		height: 410px;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-row-gap: 30px;
+		grid-column-gap: 30px;
+
+			button{
+			width: 180px;
+			height: 54px;
+			background-color: #10c9c3;
+			border: none;
+			font-size: 12px;
+			color: #ffffff;
+			margin: 0 auto;
+			}
+
+			input[type=text]{
+			width: 100%;
+			font-size: 15px;
+			font-family: 'Nunito Sans', sans-serif;
+			color: #787878;
+			height: 44px;
+			padding-left: 20px;
+			border: none;
+			}
+
+			textarea{
+			font-size: 15px;
+			font-family: 'Nunito Sans', sans-serif;
+			color: #787878;
+			border: none;
+			resize: none;
+			}
+		}
+}
+
+

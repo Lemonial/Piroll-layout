@@ -1,385 +1,354 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-	margin: 0px;
-	font-family: 'Montserrat', sans-serif;
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.banner{
-	background-image: url(../images/backgrounds/macbook_apple_noutbuk_fotoapparat_chashka_99153_1366x768.jpg);
-	height: 670px;
-	background-size: cover;
-	background-position: center;
+.banner {
+  background-image: url(../images/backgrounds/macbook_apple_noutbuk_fotoapparat_chashka_99153_1366x768.jpg);
+  height: 670px;
+  background-size: cover;
+  background-position: center;
 }
 
-header{
-	width: 85%;
-	height: 100px;
-	display: flex;
-	margin: 0 auto;
-	justify-content: space-between;
-	align-items: center;
+header {
+  width: 85%;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+header .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 616px;
+}
+header .links a {
+  text-decoration: none;
+  color: #191919;
+  transition: 0.5s;
+  font-size: 12px;
+}
+header .links a:hover {
+  color: #10c9c3;
 }
 
-header > .links{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 616px;
-
+.image-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 85%;
+  height: 570px;
+  margin: 0 auto;
 }
 
-header > .links a{
-	text-decoration: none;
-	color: #191919;
-	transition: 0.5s;
-	font-size: 12px;
+.textandbutton h1 {
+  color: #1d1d1d;
+  font-size: 38px;
+}
+.textandbutton .text {
+  font-family: "Nunito Sans", sans-serif;
+  color: #787878;
+  font-size: 18px;
 }
 
-header > .links a:hover{
-	color: #10c9c3;
+.button {
+  display: flex;
+  width: 180px;
+  height: 54px;
+  background-color: #39b4af;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.button a:focus {
+  outline: none;
 }
 
-.image-content{
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	width: 85%;
-	height: 570px;
-	margin: 0 auto;
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.textandbutton h1{
-	color: #1d1d1d;
-	font-size: 38px;
+.about_us_wrapper {
+  width: 85%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.textandbutton > .text{
-	font-family: 'Nunito Sans', sans-serif;
-	color: #787878;
-	font-size: 18px;
+.about_us {
+  width: 620px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_us h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+.about_us .text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #787878;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.button{
-	display: flex;
-	width: 180px;
-	height: 54px;
-	background-color: #39b4af;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 40px;
+.professional_skills_wrapper_banner {
+  height: 570px;
+  background-image: url(../images/backgrounds/white-blank-notebook-733857.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-a{
-	font-size: 12px;
-	text-decoration: none;
-	color: #ffffff;
+.professional_skills_wrapper {
+  width: 85%;
+  height: 570px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.button a:focus{
-	outline: none;
+.professional_skills h2 {
+  font-size: 30px;
+  color: #171717;
+}
+.professional_skills .item {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  height: 32px;
+  justify-content: space-between;
 }
 
-.about_us_wrapper{
-	width: 85%;
-	height: 420px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
+.numbers_wrapper_banner {
+  background-color: #10c9c3;
+  height: 240px;
 }
 
-.about_us{
-	width: 620px;
-	height: 219px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+.numbers_wrapper {
+  height: 240px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.numbers_wrapper .item {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  color: #ffffff;
+}
+.numbers_wrapper .item i {
+  font-size: 48px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.numbers_wrapper .item .number {
+  font-size: 18px;
+}
+.numbers_wrapper .item .text {
+  font-size: 12px;
 }
 
-.about_us h2{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+.image_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.image_grid .image {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+.image_grid .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
 }
 
-.about_us > .text{
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 16px;
-	color: #787878;
-	text-align: center;
-	margin-bottom: 30px;
+.load_more_work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #f5f5f5;
+  color: #8e8e8e;
+  font-size: 12px;
 }
 
-.professional_skills_wrapper_banner{
-	height: 570px;
-	background-image: url(../images/backgrounds/white-blank-notebook-733857.jpg);
-	background-size: cover;
-	background-position: center;
+.video_title {
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.video_title h2 {
+  font-size: 30px;
+  color: #191919;
+}
+.video_title .text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #787878;
 }
 
-.professional_skills_wrapper{
-	width: 85%;
-	height: 570px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	margin: 0 auto;
+.video {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+.video video {
+  width: 100%;
 }
 
-.professional_skills h2{
-	font-size: 30px;
-	color: #171717;
+.after_video_space {
+  height: 100px;
 }
 
-.professional_skills > .item{
-	display: flex;
-	flex-direction: column;
-	font-size: 12px;
-	height: 32px;
-	justify-content: space-between;
+.services_wrapper_banner {
+  height: 535px;
+  background-color: #f5f5f5;
 }
 
-.numbers_wrapper_banner{
-	background-color: #10c9c3;
-	height: 240px;
+.services_wrapper {
+  margin: 0 auto;
+  width: 85%;
+  height: 535px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+}
+.services_wrapper .service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services_wrapper .service i {
+  font-size: 48px;
+}
+.services_wrapper .service h3 {
+  font-size: 12px;
+  color: #191919;
+}
+.services_wrapper .service .text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #787878;
+  text-align: center;
 }
 
-.numbers_wrapper{
-	height: 240px;
-	width: 85%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.testimonials {
+  height: 500px;
+  background-color: #39b4af;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.numbers_wrapper > .item i{
-	font-size: 48px;
-	grid-row-start: 1;
-  	grid-row-end: 3;
+.testimonial {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 175px 0px 105px 0px;
+}
+.testimonial .text {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+.testimonial .author {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
 }
 
-.numbers_wrapper > .item > .number{
-	font-size: 18px;
+.logos {
+  height: 200px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.numbers_wrapper > .item > .text{
-	font-size: 12px;
+.need_project_banner {
+  height: 750px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
 }
 
-.numbers_wrapper > .item{
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-column-gap: 20px;
-	color: #ffffff;
+.need_project {
+  width: 670px;
+  height: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.need_project h2 {
+  font-size: 30px;
+  color: #1d1d1d;
+  margin: 0;
+}
+.need_project .text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #787878;
+}
+.need_project .text_forms_button {
+  width: 670px;
+  height: 410px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+.need_project .text_forms_button button {
+  width: 180px;
+  height: 54px;
+  background-color: #10c9c3;
+  border: none;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.need_project .text_forms_button input[type=text] {
+  width: 100%;
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #787878;
+  height: 44px;
+  padding-left: 20px;
+  border: none;
+}
+.need_project .text_forms_button textarea {
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #787878;
+  border: none;
+  resize: none;
 }
 
-.image_grid{
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-}
-
-.image_grid > .image{
-	width: 100%;
-  	padding-bottom: 100%;
-  	position: relative;
-}
-
-.image_grid > .image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-}
-
-.load_more_work{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100px;
-	background-color: #f5f5f5;
-	color: #8e8e8e;
-	font-size: 12px;
-}
-
-.video_title{
-	height: 258px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.video_title h2{
-	font-size: 30px;
-	color: #191919;
-}
-
-.video_title > .text{
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 16px;
-	text-align: center;
-	color: #787878;
-
-}
-
-.video{
-	width: 85%;
-	margin: 0 auto;
-	display: flex;
-}
-
-.video video{
-	width: 100%;
-}
-
-.after_video_space{
-	height: 100px;
-}
-
-.services_wrapper_banner{
-	height: 535px;
-	background-color: #f5f5f5;
-}
-
-.services_wrapper{
-	margin: 0 auto;
-	width: 85%;
-	height: 535px;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	align-items: center;
-}
-
-.services_wrapper > .service{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.services_wrapper > .service i{
-	font-size: 48px;
-}
-
-.services_wrapper > .service h3{
-	font-size: 12px;
-	color: #191919;
-}
-
-.services_wrapper > .service > .text{
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 16px;
-	color: #787878;
-	text-align: center;
-}
-
-.testimonials{
-	height: 500px;
-	background-color: #39b4af;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.testimonial{
-	height: 150px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin: 175px 0px 105px 0px;
-}
-
-.testimonial > .text{
-	color: #ffffff;
-	font-size: 24px;
-	text-align: center;
-}
-
-.testimonial > .author{
-	color: #ffffff;
-	font-size: 12px;
-	text-align: center;
-}
-
-.logos{
-	height: 200px;
-	width: 85%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.need_project_banner{
-	height: 750px;
-	background-color: #f5f5f5;
-	display: flex;
-	align-items: center;
-}
-
-.need_project{
-	width: 670px;
-	height: 550px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.need_project h2{
-	font-size: 30px;
-	color: #1d1d1d;
-	margin: 0;
-}
-
-.need_project > .text{
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 16px;
-	text-align: center;
-	color: #787878;
-}
-
-.text_forms_button{
-	width: 670px;
-	height: 410px;
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-row-gap: 30px;
-	grid-column-gap: 30px;
-}
-
-.need_project > .text_forms_button button{
-	width: 180px;
-	height: 54px;
-	background-color: #10c9c3;
-	border: none;
-	font-size: 12px;
-	color: #ffffff;
-	margin: 0 auto;
-}
-
-.text_forms_button input[type=text]{
-	width: 100%;
-	font-size: 15px;
-	font-family: 'Nunito Sans', sans-serif;
-	color: #787878;
-	height: 44px;
-	padding-left: 20px;
-	border: none;
-}
-
-.text_forms_button textarea{
-	font-size: 15px;
-	font-family: 'Nunito Sans', sans-serif;
-	color: #787878;
-	border: none;
-	resize: none;
-}
-
-
+/*# sourceMappingURL=indexstyle.css.map */

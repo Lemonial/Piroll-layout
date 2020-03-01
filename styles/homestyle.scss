@@ -1,0 +1,54 @@
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 38px;
+	color: #171717;
+	text-align: center;
+}
+
+.title_text{
+	height: 313px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6f6f6;
+
+		.text{
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 18px;
+		color: #787878;
+		text-align: center;
+		}
+}
+
+.image_grid{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+
+		.image{
+		width: 100%;
+	  	padding-bottom: 100%;
+	  	position: relative;
+
+		  	img{
+		    width: 100%;
+		    height: 100%;
+		    object-fit: cover;
+		    position: absolute;
+			}
+		}
+}
+
+a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #ffffff;
+}

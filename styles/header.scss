@@ -1,0 +1,26 @@
+header{
+	width: 85%;
+	height: 100px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+
+	.links{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 211px;
+
+		a{
+		text-decoration: none;
+		color: #191919;
+		transition: 0.5s;
+		font-size: 12px;
+
+			&:hover{
+			color: #10c9c3;
+			}
+		}
+	}
+}
